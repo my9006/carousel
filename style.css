@@ -1,0 +1,40 @@
+#videoContainer{
+	height: 100vh;
+}
+
+.buttons button#prev {
+	position: absolute;
+	top: 40%;
+	left: 15px;
+	rotation: 180deg;
+}
+.buttons button#next {
+	position: absolute;
+	top: 40%;
+	right: 15px;
+}
+
+.buttons button#random{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+}
+
+.buttons button {
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	cursor: pointer;
+	padding: 13px 15px;
+	border-radius: 50%;
+	outline: none;
+	transition: 0.3s;
+	opacity: 0.1;
+}
+
+.buttons button:hover {
+	background-color: #fff;
+	color: #333;
+	opacity: 1;
+	transition: 0.3s;
+}
